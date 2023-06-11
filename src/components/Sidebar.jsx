@@ -1,6 +1,6 @@
 import React from "react";
-import { AiFillHome,AiOutlineLike } from "react-icons/ai";
-import {MdSubscriptions,MdVideoLibrary,MdOutlineWatchLater} from "react-icons/md";
+import { AiFillHome,AiOutlineLike, AiOutlineVideoCameraAdd  } from "react-icons/ai";
+import {MdSubscriptions,MdVideoLibrary,MdOutlineWatchLater, } from "react-icons/md";
 import {RiHistoryLine,RiVideoLine} from "react-icons/ri";
 import {BsChevronDown} from "react-icons/bs"
 const Sidebar = () => {
@@ -11,7 +11,7 @@ const Sidebar = () => {
         <h1 className="text-base font-semibold">Home</h1>
       </div>
       <div className="flex items-center ml-5 gap-7 mt-5">
-        <AiFillHome className="text-2xl" />
+        <AiOutlineVideoCameraAdd    className="text-2xl" />
         <h1 className="text-base font-semibold">Shorts</h1>
       </div>
       <div className="flex items-center ml-5 gap-7 mt-5">
