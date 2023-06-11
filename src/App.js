@@ -7,8 +7,10 @@ function App() {
   return (
     <div >
       <Header/>
+      <div className='flex'>
       <Sidebar/>
       <Middle/>
+      </div>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import {BsChevronDown} from "react-icons/bs"
 const Sidebar = () => {
   return (
     <div>
-      <div className="flex items-center ml-5 gap-7">
+      <div className="flex items-center ml-5 gap-7 mt-3">
         <AiFillHome className="text-2xl" />
         <h1 className="text-base font-semibold">Home</h1>
       </div>
