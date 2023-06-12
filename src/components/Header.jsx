@@ -35,7 +35,7 @@ const Header = () => {
           </div>
         </div>
 
-        <BsFillMicFill className="text-2xl cursor-pointer" />
+        <BsFillMicFill className="text-xl cursor-pointer hover:scale-105 hover:bg-slate-400 rounded-full duration-200 min-w-[40px] min-h-[40px] p-2" />
       </div>
       <div className="flex items-center gap-5">
         <BiVideoPlus className="text-2xl cursor-pointer" />
@@ -44,7 +44,7 @@ const Header = () => {
           src={photo}
           onClick={clickHandler}
           alt="pp"
-          className="rounded-full w-[30px] h-[30px] cursor-pointer"
+          className="rounded-full w-[35px] h-[35px] cursor-pointer"
         />
       </div>
       {show && (

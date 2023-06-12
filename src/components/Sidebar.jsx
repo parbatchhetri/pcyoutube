@@ -5,8 +5,8 @@ import {RiHistoryLine,RiVideoLine} from "react-icons/ri";
 import {BsChevronDown} from "react-icons/bs"
 const Sidebar = () => {
   return (
-    <div>
-      <div className="flex hover:bg-slate-400 hover:scale-105 cursor-pointer duration-200 rounded-lg items-center ml-4 gap-7 mt-3 p-3">
+    <div className="  ">
+      <div className="flex hover:bg-slate-400 hover:scale-105 cursor-pointer duration-200 rounded-lg items-center ml-4 gap-7 p-3">
         <AiFillHome className="text-2xl" />
         <h1 className="text-base font-semibold ">Home</h1>
       </div>
