@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="flex items-center gap-56 justify-between p-5 ">
       <div className="flex items-center  gap-5">
-        <AiOutlineMenu className="text-2xl cursor-pointer " />
+        <AiOutlineMenu className="text-xl cursor-pointer hover:scale-105 hover:bg-slate-400 rounded-full duration-200 min-w-[40px] min-h-[40px] p-2" />
         <div className="flex ">
           <AiFillYoutube className="text-3xl text-red-600 " />
           <h1 className="text-xl font-semibold cursor-pointer">

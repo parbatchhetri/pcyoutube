@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Middle from './components/Middle';
 function App() {
   return (
-    <div >
+    <div className='' >
       <Header/>
       <div className='flex'>
       <Sidebar/>
