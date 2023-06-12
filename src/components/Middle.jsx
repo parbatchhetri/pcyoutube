@@ -3,7 +3,7 @@ import Data from "./Data";
 const Middle = () => {
   return (
     <div>
-      <div className="flex gap-6 ml-10">
+      <div className="flex gap-6 ml-10 mt-3">
         <div className="w-[90px] h-[30px] rounded-xl bg-gray-400 flex justify-center items-center">
           <h1 className="text-base font-medium">All</h1>
         </div>
@@ -36,21 +36,22 @@ const Middle = () => {
         </div>
       </div>
 
-      <div className="flex justify-between gap-5 flex-wrap">
+      <div className="flex  flex-wrap ">
         {Data.map((item, index) => (
-          <div key={index} className="w-[320px] h-[288px] bg-yellow-100 rounded-xl mt-8">
+          <div key={index} className="w-[350px] h-[270px] bg-white rounded-xl mt-8 ml-12  border-[1px]">
             <div>
-              <img src={item.image} alt="pp" className="w-[320px] h-[180px] rounded-xl" />
+              <img src={item.image} alt="pp" className="w-[350px] h-[180px] rounded-xl " />
             </div>
             <div className="flex mt-3 ml-1">
               <img
                 src={item.image}
                 alt="pp"
-                className="w-[50px] h-[50px] rounded-full"
+                className="w-[40px] h-[40px] rounded-full "
               />
-              <div className="ml-3">
+              <div className="ml-5 ">
                 <p className="font-bold">{item.title}</p>
-                <p className="">
+                <p className="font-medium">{item.id}</p>
+                <p className="font-extrabold">
                   {item.Views} . {item.time}
                 </p>
               </div>
