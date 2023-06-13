@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pcyoutube/static/css/main.26ebcc6d.css",
+    "main.js": "/pcyoutube/static/js/main.02cddaa4.js",
+    "static/js/787.862c7ae3.chunk.js": "/pcyoutube/static/js/787.862c7ae3.chunk.js",
+    "static/media/photo5.jpg": "/pcyoutube/static/media/photo5.d8609bbb081f06953668.jpg",
+    "static/media/photo4.jpg": "/pcyoutube/static/media/photo4.50de9184d79dbd44a7be.jpg",
+    "static/media/photo1.jpg": "/pcyoutube/static/media/photo1.108a27edfc3eb11369ed.jpg",
+    "static/media/photo6.jpg": "/pcyoutube/static/media/photo6.054824d959abdc0f34d8.jpg",
+    "static/media/photo3.jpg": "/pcyoutube/static/media/photo3.1a066d4a4d5effd69ee8.jpg",
+    "static/media/photo2.jpg": "/pcyoutube/static/media/photo2.eec23d66fb5ded43bd16.jpg",
+    "static/media/photo.jpg": "/pcyoutube/static/media/photo.4ebb74a175a3e0776db5.jpg",
+    "index.html": "/pcyoutube/index.html",
+    "main.26ebcc6d.css.map": "/pcyoutube/static/css/main.26ebcc6d.css.map",
+    "main.02cddaa4.js.map": "/pcyoutube/static/js/main.02cddaa4.js.map",
+    "787.862c7ae3.chunk.js.map": "/pcyoutube/static/js/787.862c7ae3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26ebcc6d.css",
+    "static/js/main.02cddaa4.js"
+  ]
+}
