@@ -4,7 +4,7 @@ const Middle = () => {
   return (
     <div>
     
-      <div className="flex gap-6 ml-14 mt-3 ">
+      <div className="flex gap-6 ml-12 mt-3 ">
         <div className="w-[90px] h-[30px] rounded-xl bg-gray-400 flex justify-center items-center cursor-pointer hover:bg-slate-400">
           <h1 className="text-base font-medium">All</h1>
         </div>
@@ -37,7 +37,7 @@ const Middle = () => {
         </div>
       </div>
 
-      <div className="flex   flex-wrap justify-start gap-6 ml-24">
+      <div className="flex   flex-wrap justify-start gap-6 ml-20">
         {Data.map((item, index) => (
           <div key={index} className="w-[350px] h-[260px] bg-gray-300 rounded-xl mt-8   hover:scale-105 cursor-pointer hover:bg-slate-400 duration-">
             <div>
