@@ -55,7 +55,8 @@ const Data = [
         id: " T-Seires",
         Views: "17M",
         time: "2 hour ago"
-    }
+    },
+    
 ]
 
 export default Data

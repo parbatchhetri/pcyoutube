@@ -48,7 +48,7 @@ const Header = () => {
         />
       </div>
       {show && (
-        <div className="absolute top-[60px] right-[45px]">
+        <div className="absolute top-[5px] right-[65px]">
           <Body />
         </div>
       )}
