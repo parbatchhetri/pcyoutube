@@ -5,6 +5,7 @@ import { BiVideoPlus } from "react-icons/bi";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import photo from "../assests/photo.jpg";
 import Body from "./Body";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -30,9 +31,9 @@ const Header = () => {
             placeholder="Search"
             className="outline-none p-2 rounded-l-3xl pr-[400px]"
           ></input>
-          <div className="py-2 px-6 bg-gray-200 rounded-r-3xl flex items-center cursor-pointer">
+          <Link to="/search"> <div className="py-3 px-6 bg-gray-200 rounded-r-3xl flex items-center cursor-pointer">
             <AiOutlineSearch className="text-xl" />
-          </div>
+          </div></Link>
         </div>
 
         <BsFillMicFill className="text-xl cursor-pointer hover:scale-105 hover:bg-slate-400 rounded-full duration-200 min-w-[40px] min-h-[40px] p-2" />

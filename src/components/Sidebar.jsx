@@ -11,7 +11,7 @@ import photo5 from "../assests/photo5.jpg"
 const Sidebar = () => {
   return (
     <div className=" ">
-    <div class=" snap-x snap-proximity h-[700px] overflow-auto scrollbar-hidden scroll-smooth sticky min-h-full">
+    <div class=" snap-x snap-proximity h-[700px] overflow-auto scrollbar-hidden scroll-smooth ">
       <div className="flex hover:bg-slate-400 hover:scale-105 cursor-pointer duration-200 rounded-xl items-center ml-4 gap-7 p-2">
         <AiFillHome className="text-2xl" />
         <h1 className="text-base font-semibold ">Home</h1>

@@ -1,22 +1,19 @@
+import "./App.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import './App.css';
-import Header from "./components/Header";
-import Sidebar from './components/Sidebar';
-import Middle from './components/Middle';
-
-
+import { Secondpart } from "./components/Secondpart";
+import Page1 from "./pages/Page1";
 
 function App() {
   return (
     <div>
-      <div className='relative'>
-      <Header/>
-      <div className='flex'>
-      <Sidebar/>
-      <Middle/>
-      </div>
-      </div>
-     
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Page1 />} />
+          <Route path="/search" exact element={<Secondpart />} />
+          {/* <Route path="/playvideo/:videoId" exact element={<PlayVideo />} /> */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
