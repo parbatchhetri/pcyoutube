@@ -6,7 +6,7 @@ import { BiUserCircle } from "react-icons/bi";
 const Body = () => {
   return (
     <div>
-      <div className="w-[280px] h-[800px] bg-green-500 border-[0px] rounded-xl">
+      <div className="w-[280px] h-[670px] bg-green-500 border-[0px] rounded-xl">
         <div className="flex m-1 gap-4 ">
           <div className=" ml-3 mt-3 flex gap-3 ">
             <img
@@ -24,7 +24,8 @@ const Body = () => {
           </div>
         </div>
         <hr className="border-[1px]  bg-red-500  mt-3"></hr>
-
+        
+       
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-3 ml-4 mt-1">
             <BiUserCircle className="text-2xl" />
@@ -93,8 +94,8 @@ const Body = () => {
           <BiUserCircle className="text-2xl" />
           <h1 className="font-semibold text-base">Your Channel</h1>
         </div>
-       
-      </div>
+       </div>
+      
     </div>
   );
 };
