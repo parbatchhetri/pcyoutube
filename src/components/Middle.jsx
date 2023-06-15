@@ -47,7 +47,7 @@ const Middle = () => {
 
       <div className="flex   flex-wrap justify-start gap-6 ml-20">
         {Data.map((item, index) => (
-          <div key={index} className="shrink-0 w-[350px] h-[260px] bg-gray-300 rounded-xl mt-8   hover:scale-105 cursor-pointer hover:bg-slate-400 duration-">
+          <div key={index} className="shrink-0 w-[350px] h-[260px] bg-gray-300 rounded-xl mt-8   hover:scale-105 cursor-pointer hover:bg-slate-400 duration-200">
             <div>
               <img src={item.image} alt="pp" className="shrink-0 w-[350px] h-[180px] rounded-xl " />
             </div>
