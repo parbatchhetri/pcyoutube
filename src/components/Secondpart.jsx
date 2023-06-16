@@ -3,6 +3,7 @@ import Header from "./Header";
 import Sidebar from './Sidebar';
 import{MdFilterList} from "react-icons/md"
 import Data1 from "./Data1";
+import { Link } from 'react-router-dom';
  export const Secondpart = () => {
   return (
     <div>
@@ -27,6 +28,7 @@ import Data1 from "./Data1";
 
     <div className=" ml-24">
         {Data1.map((item, index) => (
+           <Link to='/playvideo'>
           <div key={index} className="shrink-0 w-[850px] h-[180px] bg-gray-100 rounded-xl mt-8 flex   hover:scale-105 cursor-pointer hover:bg-slate-300 duration-200">
             <div>
               <img src={item.image} alt="pp" className="shrink-0 w-[350px] h-[180px] rounded-xl " />
@@ -43,6 +45,7 @@ import Data1 from "./Data1";
                
            
           </div>
+          </Link>
         ))}
       </div>
 

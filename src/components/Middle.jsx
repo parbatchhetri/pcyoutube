@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Data from "./Data";
 const Middle = () => {
   return (
@@ -47,6 +48,7 @@ const Middle = () => {
 
       <div className="flex   flex-wrap justify-start gap-6 ml-20">
         {Data.map((item, index) => (
+          <Link to='/playvideo'>
           <div key={index} className="shrink-0 w-[350px] h-[260px] bg-gray-300 rounded-xl mt-8   hover:scale-105 cursor-pointer hover:bg-slate-400 duration-200">
             <div>
               <img src={item.image} alt="pp" className="shrink-0 w-[350px] h-[180px] rounded-xl " />
@@ -66,6 +68,7 @@ const Middle = () => {
               </div>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </div>
